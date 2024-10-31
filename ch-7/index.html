@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+
+        <fieldset>
+            <legend>Your Details</legend>
+            <label for="name"> Name:</label><br>
+            <input for="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input for="email" id="email" name="email" required>
+           
+        </fieldset>
+<fieldset>
+    <legend>Your Review</legend><br>
+    <label for="source">How did you hear About us?</label> <select id="source" name="source" >
+       <br> <option value="Google">
+            <font size="100">Google</font>
+        </option>
+        <option value="Social Media">
+            <font size="100">Social Media</font>
+        </option>
+        <option value="Friend">
+            <font size="100">Friend</font>
+        </option>
+        <option value="Other">
+            <font size="100">Other</font>
+        </option>
+    </select>
+   
+
+        
+        
+        
+       <legend> <label for="source">Would you visit again?</label><br>
+        
+        <form>
+          
+            
+            <input type="radio" id="red" name="color" value="red">
+            <label for="red">yes</label>
+            
+            <input type="radio" id="green" name="color" value="green">
+            <label for="green">No</label>
+            
+            <input type="radio" id="blue" name="color" value="blue">
+    
+    <label for="blue">Maybe</label></legend>
+            
+           
+        </form>
+    
+        
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="checkbox" id="emailUpdates" name="emailUpdates">
+        <label for="emailUpdates">Sign me up for email updates</label><br><br>
+
+        <input type="submit" value="Submit Review">
+    </form>
+</body>
+</html> 
+
+
+
+

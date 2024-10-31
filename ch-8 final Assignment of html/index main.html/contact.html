@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+</head>
+<body style="background-color:lightyellow; ">
+
+ 
+
+ 
+
+    <nav style="background-color: rgb(0, 0, 0); padding: 19px; text-align: center;">
+        <a href="index.html" 
+           style="color: white; text-decoration: none; margin: 0 25px;" 
+           onmouseover="this.style.color='gray';"
+           onmouseout="this.style.color='white';">
+           
+           Home
+        </a> 
+        <a href="about.html" 
+           style="color: white; text-decoration: none; margin: 0 25px;" 
+           onmouseover="this.style.color='gray';"
+           onmouseout="this.style.color='white';">
+      
+           About
+        </a> 
+        <a href="portfolio.html" 
+           style="color: white; text-decoration: none; margin: 0 25px;" 
+           onmouseover="this.style.color='gray';"
+           onmouseout="this.style.color='white';">
+         
+           Portfolio
+        </a> 
+        <a href="contact.html" 
+           style="color: white; text-decoration: none; margin: 0 25px;" 
+           onmouseover="this.style.color='gray';"
+           onmouseout="this.style.color='white';">
+          
+           Contact Us
+        </a>
+    </nav>
+
+    <!-- <p>Feel free to get in touch with us.</p> -->
+    <h1>Contact us:</h1>
+
+    <fieldset>
+        <legend>Your Details</legend>
+        <label for="name"> Name:</label><br>
+        <input for="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input for="email" id="email" name="email" required>
+       
+    </fieldset>
+<fieldset>
+<legend>Your Review</legend><br>
+<label for="source">How did you hear About us?</label> <select id="source" name="source" >
+   <br> <option value="Google">
+        <font size="100">Google</font>
+    </option>
+    <option value="Social Media">
+        <font size="100">Social Media</font>
+    </option>
+    <option value="Friend">
+        <font size="100">Friend</font>
+    </option>
+    <option value="Other">
+        <font size="100">Other</font>
+    </option>
+</select>
+
+
+    
+    
+    
+   <legend> <label for="source">Would you visit again?</label><br>
+    
+    <form>
+      
+        
+        <input type="radio" id="red" name="color" value="red">
+        <label for="red">yes</label>
+        
+        <input type="radio" id="green" name="color" value="green">
+        <label for="green">No</label>
+        
+        <input type="radio" id="blue" name="color" value="blue">
+
+<label for="blue">Maybe</label></legend>
+        
+       
+    </form>
+
+    
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+    <input type="checkbox" id="emailUpdates" name="emailUpdates">
+    <label for="emailUpdates">Sign me up for email updates</label><br><br>
+
+    <input type="submit" value="Submit Review"><br>
+    </fieldset><br><br><br>
+
+
+</body>
+<footer style="color: #ffffff; background-color: rgb(3, 3, 3); padding: 10px; text-align: center;">
+    Copyright &copy; 2019. All rights reserved.
+  </footer>
+</html>

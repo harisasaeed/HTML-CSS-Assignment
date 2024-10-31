@@ -1,0 +1,898 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+/* Style for the top bar */
+.top-bar {
+    background-color: #222;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Style for the navigation bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar .logo img {
+    height: 60px;
+}
+
+.nav-bar .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-bar .nav-links a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+
+header {
+    background-image: url('header-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h1, h2, h4 {
+    font-weight: bold;
+}
+/* General styling for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Experts section styling */
+.experts-section {
+    background-color: #a1c345;
+    padding:200px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.experts-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.experts-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    
+}
+
+
+.experts-section .btn-read-more {
+    background-color: #f0a202;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.experts-section .btn-read-more:hover {
+    background-color: #d88a01;
+    color: white;
+}
+
+/* Dots for the bottom of the section */
+.dots {
+    margin-top: 40px;
+}
+
+.dots .dot {
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.dots .dot:hover {
+    background-color: #f0a202;
+}
+
+.progress-bar {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+
+.btn-warning {
+    background-color: #f0ad4e;
+    border: none;
+}
+
+section {
+    padding: 60px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.process-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.process-section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.process-section .highlight {
+    color: #4CAF50;
+}
+
+.process-section p {
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.process-steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.process-step {
+    width: 16%;
+    text-align: center;
+}
+
+.step-icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-icon img {
+    width: 50%;
+}
+
+.step-number {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: #FFC107;
+    color: #fff;
+    font-size: 0.8em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-step h6 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.process-step p {
+    font-size: 0.9em;
+    color: #999;
+    margin: 0;
+}
+
+
+
+
+/* People About Us Section */
+.people-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+.people-section h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.person {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.person img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+
+
+/* Services Section Styling */
+.py-5.text-center {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+
+/* Individual Service Cards */
+.py-5.text-center .row .col-md-3 {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 15px 0;
+}
+
+.py-5.text-center .row .col-md-3:hover {
+    transform: translateY(-10px);
+}
+
+.py-5.text-center .row .col-md-3 img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.py-5.text-center h4 {
+    font-size: 1.25em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.py-5.text-center p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+
+
+.star-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('star-icon.png'); /* Replace with the path to your star icon image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+
+/* Skills Section */
+.skills-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.skills-section h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.progress-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(green calc(var(--progress) * 1%), lightgray 0);
+  }
+  .progress-circle .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+  
+
+.seo-ads {
+    background: conic-gradient(#ffa500 0% 45%, #f1f1f1 45%);
+}
+.branding {
+    background: conic-gradient(#28a745 0% 75%, #f1f1f1 75%);
+}
+.web-design {
+    background: conic-gradient(#000000 0% 80%, #f1f1f1 80%);
+}
+.progress-circle{
+    body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: url('header-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h1, h2, h4 {
+    font-weight: bold;
+}
+
+.progress-bar {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+.btn-warning {
+    background-color: #f0ad4e;
+    border: none;
+}
+
+section {
+    padding: 60px 0;
+}
+/* People About Us Section */
+.people-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+.people-section h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.person {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.person img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.skills-section h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/* Circular Progress Chart Styling */
+.progress-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.circle-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(
+        orange 0deg, 
+        orange calc(var(--progress) * 1deg), 
+        #f1f1f1 calc(var(--progress) * 1deg)
+    );
+}
+
+.progress-text {
+    position: relative;
+    z-index: 2;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+}
+.contact-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.contact-header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-header h1 span {
+    color: #79c143;
+}
+
+.contact-header p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contact-item, .phone, .email {
+    margin: 0 15px;
+    text-align: left;
+}
+
+.contact-item i, .phone i, .email i {
+    color: #79c143;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact-item p, .phone p, .email p {
+    font-size: 14px;
+    color: #555;
+}
+
+.map {
+    position: relative;
+    display: inline-block;
+}
+
+.map img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.location-point {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ff6600;
+    border-radius: 50%;
+}
+/* Footer Styling */
+.footer-section {
+    background-color: #7A9B01; /* Green background color */
+    color: white;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+
+.footer-logo {
+    width: 100px;
+    height: 50px;
+    mix-blend-mode:color-burn;
+  }
+  
+  
+
+.footer-links, .contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li, .contact-info li {
+    margin-bottom: 10px;
+}
+
+.footer-links a, .contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover, .contact-info a:hover {
+    color: #f5e70a; /* Yellow hover color */
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    margin-right: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.social-links a:hover {
+    color: #f5e70a;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section a:hover {
+    color: #f5e70a; /* Hover effect for links */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-column {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Section title styling */
+.advantages-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-title h2 span {
+    color: #7CA646; /* Exact green color from the image */
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* Advantages container styling */
+.advantages-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.advantage-item {
+    text-align: center;
+    width: 150px;
+}
+
+.advantage-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.advantage-item h3 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.advantage-item p {
+    font-size: 14px;
+    color: #888;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
+
+
+
+.content {
+    max-width: 500px;
+}
+
+.content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #4caf50;
+}
+
+.content p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.read-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f4a300;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+
+
+.portfolio-image {
+    width: 100%;
+    max-width: 900px; /* Adjust the max-width as per design preference */
+    height: auto;
+    margin: 0 auto;
+    display: block; /* Center-align the image */
+}
+
+
+
+
+
+
+
+styles.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.icon-item {
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 150px;
+    transition: transform 0.3s;
+}
+
+.icon-item:hover {
+    transform: translateY(-10px);
+}
+
+.icon-item i {
+    font-size: 40px;
+    color: #8bc34a; /* This matches the green color in the image */
+    margin-bottom: 20px;
+}
+
+.icon-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.icon-item p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+}
+
+
+
+
+/* //////////////////// */
+
+/* Body and base styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+/* Heading styling */
+h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h1 span {
+    color: #7caf2a; /* Green color for "SKILLS" */
+}
+
+/* Description paragraph styling */
+.description {
+    color: #aaa;
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* Skills container styling */
+.skills {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+}
+
+/* Circular progress bars */
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #fff; /* Set the number color to white */
+    background: conic-gradient(#e6e6e6 0% 100%);
+    position: relative;
+    text-align: center;
+}
+
+.circle[data-percent="45"] {
+    background: conic-gradient(#fd9c00 0% 45%, #e6e6e6 45% 100%);
+}
+
+.circle[data-percent="60"] {
+    background: conic-gradient(#d348fd 0% 60%, #e6e6e6 60% 100%);
+}
+
+.circle[data-percent="75"] {
+    background: conic-gradient(#9dff00 0% 75%, #e6e6e6 75% 100%);
+}
+
+.circle[data-percent="80"] {
+    background: conic-gradient(#0069f1 0% 80%, #e6e6e6 80% 100%);
+}
+
+/* Skill title styling */
+.skill-title {
+    margin-top: 20px;
+    font-weight: 600;
+    color: #333;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
